@@ -1,0 +1,14 @@
+digraph "Model Tree" {
+	rankdir=TB size=8
+	Root [label="Model Selection"]
+	"Ridge Regression" [label="Ridge Regression"]
+	Root -> "Ridge Regression"
+	"Random Forest Regressor" [label="Random Forest Regressor"]
+	Root -> "Random Forest Regressor"
+	"Support Vector Regressor (SVR)" [label="Support Vector Regressor (SVR)"]
+	Root -> "Support Vector Regressor (SVR)"
+	"k-NN Regressor" [label="k-NN Regressor"]
+	Root -> "k-NN Regressor"
+	"XGBoost Regressor" [label="XGBoost Regressor"]
+	Root -> "XGBoost Regressor"
+}
