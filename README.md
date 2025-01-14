@@ -4,40 +4,38 @@
 ### Project Description
 
 #### 1. Data Collection
-The initial phase of the project involved gathering data from the ChEMBL database, focusing on "Proteases," a key enzyme group with critical roles in various biological processes, including those related to diseases like coronavirus. Proteases are significant therapeutic targets in drug discovery. The collected data serves as the foundation for further analysis and modeling.
+The first stage of the project involved collecting data from the ChEMBL database, with a focus on "Proteases." These enzymes play essential roles in various biological processes and are particularly relevant in the context of diseases such as coronavirus. Because of their therapeutic importance, proteases were chosen as the target for this analysis. The collected data formed the basis for all subsequent steps in the project.
 
 ---
 
 #### 2. Data Preprocessing
-After data collection, the dataset underwent rigorous preprocessing to ensure it was clean and ready for analysis. This step included:
+Once the data was collected, it was carefully preprocessed to make it suitable for further analysis. The preprocessing phase included:
 
-- Cleaning the data by handling missing values and inconsistencies.
-- Transforming and standardizing data into a structured format.
-- Preparing the dataset for machine learning by organizing features appropriately.
+- Cleaning the dataset by addressing missing values and resolving inconsistencies.
+- Transforming the data to ensure it was in a structured and standardized format.
+- Organizing the features to prepare the data for machine learning models.
+
+This step was crucial for ensuring the accuracy and reliability of the analysis.
 
 ---
 
 #### 3. Exploratory Data Analysis (EDA) and Visualization
-Exploratory Data Analysis was performed to uncover patterns and trends within the dataset. This phase included:
+To understand the data better, exploratory data analysis was carried out. This involved:
 
-- Visualizing data distributions and correlations to identify important relationships.
-- Using graphs and plots to understand the behavior of key features and their impact on the target variables.
-- Tools like static and interactive visualizations were used to enhance understanding.
+- Using visual tools to examine distributions, patterns, and trends within the dataset.
+- Analyzing correlations between different variables to identify significant relationships.
+- Employing visualizations, such as plots and graphs, to make the data more comprehensible.
+
+This phase provided valuable insights that guided subsequent decisions in the project.
 
 ---
 
 #### 4. Feature Selection
-Feature selection was a critical step to ensure that the most relevant and predictive attributes of the dataset were utilized. This process involved:
-
-- Identifying and retaining significant features.
-- Removing redundant or irrelevant attributes to optimize model performance.
-- Ensuring a streamlined dataset for the modeling phase.
+The next step was to select the most relevant features for the machine learning models. The focus was on identifying attributes that had the most predictive power while removing redundant or irrelevant ones. This step streamlined the dataset and ensured that the modeling process was both efficient and effective.
 
 ---
 
 #### 5. Modeling and Evaluation
-Machine learning models were developed and evaluated to predict outcomes based on the selected features. Key steps in this phase included:
+Finally, machine learning models were developed to make predictions based on the processed data. Multiple algorithms were used, including Ridge Regression, Random Forest Regressor, and Support Vector Regression, among others. Each model was evaluated using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²). The performance of the models was compared to select the one that provided the most accurate and reliable predictions.
 
-- Using multiple machine learning algorithms (e.g., Ridge Regression, Random Forest Regressor, Support Vector Regression, etc.) to build predictive models.
-- Comparing model performance based on metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²).
-- Selecting the best-performing model to ensure reliable predictions and insights.
+This structured approach ensured that the project yielded meaningful insights and robust results.
